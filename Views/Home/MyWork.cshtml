@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "My Work";
+}
+
+<h1>Our Work</h1>
+<form asp-action="MyWork" method="get" class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchString">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+<div class="card" style="width: 18rem;">
+    <img src="/images/image1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+        <p class="card-text">Handcrafted with care and creativity, our pottery pieces are a testament to the beauty of traditional craftsmanship. Each piece is lovingly molded and fired by skilled artisans, resulting in unique and charming creations that add character to any space. Whether you're looking for a rustic vase, a whimsical mug, or a one-of-a-kind sculpture, our pottery collection offers something for every taste and style</p>
+  <p class="card-text">Price: R800 </p>
+        <a asp-controller="Home" asp-action="ShoppingCart" class="btn btn-primary">Add to Cart </a>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="/images/image2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Dive into a world of color and expression with our collection of hand-painted artworks. From vibrant abstract compositions to serene landscapes, each painting is a labor of love crafted by talented artists. Using a variety of techniques and mediums, our artists bring their visions to life on canvas, creating captivating pieces that stir the imagination and ignite the soul</p>
+        <p class="card-text">Price: R750 </p>
+        <a asp-controller="Home" asp-action="ShoppingCart" class="btn btn-primary">Add to Cart </a>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="/images/image3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Explore the artistry of handmade crafts with our eclectic collection of DIY creations. From intricately woven textiles to meticulously crafted woodwork, each piece showcases the skill and ingenuity of our artisans. Whether you're drawn to the rustic charm of hand-carved ornaments or the intricate detail of woven tapestries, our craftwork collection celebrates the beauty of traditional craftsmanship in a modern context.</p>
+        <p class="card-text">Price: R900 </p>
+        <a asp-controller="Home" asp-action="ShoppingCart" class="btn btn-primary">Add to Cart </a>
+    </div>
+</div>
